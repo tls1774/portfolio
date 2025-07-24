@@ -72,7 +72,7 @@
     margin-bottom: 30px;
 }
 .samwon .photo {
-    background: url(../images/samwon_detail.png) no-repeat center center / cover;
+    background: url(../images/samwon_detail.png) no-repeat center center;
     height: 3964px;
 }
 
@@ -147,7 +147,7 @@
     margin-bottom: 40px;
 }
 .gyeonju .photo {
-    background: url(../images/gj_detail.png) no-repeat center center / cover;
+    background: url(../images/gj_detail.png) no-repeat center center;
     height: 2957px;
 }
 
@@ -226,7 +226,7 @@
     margin-bottom: 40px;
 }
 .somnium .photo {
-    background: url(../images/som_detail.png) no-repeat center center / cover;
+    background: url(../images/som_detail.png) no-repeat center center;
     height: 2439px;
 }
 
