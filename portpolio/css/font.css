@@ -1,13 +1,13 @@
 /* 웹폰트를 선언 */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap');
 @font-face {
-    font-family: 'SUITE-Regular';
+    font-family: 'SUITE';
     src: url(../font/SUITE-Regular.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'SUITE-Bold';
+    font-family: 'SUITE';
     src: url(../font/SUITE-Bold.woff2) format('woff2');
     font-weight: 700;
     font-style: normal;
