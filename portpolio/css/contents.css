@@ -71,6 +71,9 @@
     margin-top: 60px;
     margin-bottom: 30px;
 }
+.samwon .detail {
+    background: url(../images/noise.png);
+}
 .samwon .photo {
     background: url(../images/samwon_detail.png) no-repeat center center;
     height: 3964px;
@@ -145,6 +148,9 @@
 .gyeonju .visual .right .pc img {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.gyeonju .detail {
+    background: url(../images/noise_gj.png);
 }
 .gyeonju .photo {
     background: url(../images/gj_detail.png) no-repeat center center;
@@ -224,6 +230,9 @@
 .somnium .visual .right .pc img {
     margin-top: 80px;
     margin-bottom: 40px;
+}
+.somnium .detail {
+    background: url(../images/noise_som.png);
 }
 .somnium .photo {
     background: url(../images/som_detail.png) no-repeat center center;
