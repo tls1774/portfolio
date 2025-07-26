@@ -904,8 +904,7 @@ header .logo a {
 }
 .culture .more:hover {
     transition: 0.3s ease;
-    border: 1px solid #F26631;
-    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width:1024px) {
     .culture h2 {
