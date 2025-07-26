@@ -1104,6 +1104,12 @@ header .logo a {
         bottom: 45.4%;
         width: 200px;
     }
+    .write .txt .swiper ul li p {
+        font-size: 16px;
+        padding: 16px 21px;
+        border-radius: 15px;
+        margin-bottom: 13px;
+    }
 }
 @media screen and (max-width:768px) {
     .write {
@@ -1144,7 +1150,7 @@ header .logo a {
         position: relative;
     }
     .write .txt .swiper ul li p {
-        font-size: 16px;
+        font-size: 14px;
         padding: 16px 21px;
         border-radius: 15px;
         margin-bottom: 13px;
