@@ -904,7 +904,7 @@ header .logo a {
 }
 .culture .more:hover {
     transition: 0.3s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width:1024px) {
     .culture h2 {
@@ -1028,10 +1028,10 @@ header .logo a {
     display: inline-block;
 }
 .write .btn_wrap .btn_prev:hover,
-.write .btn_wrap .btn_next:hover {
-    transition: all 0.3s ease;
-    border: 1px solid #F26631;
-    border-radius: 50%;
+.write .btn_wrap .btn_next:hover,
+.write .btn_wrap .more:hover {
+    transition: 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .write .btn_wrap .more {
     margin-left: 10px;
@@ -1042,11 +1042,6 @@ header .logo a {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_95_2217' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='35' height='35'%3E%3Crect x='0.81543' y='0.390137' width='34' height='34' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_95_2217)'%3E%3Cpath d='M17.8152 29.432C17.514 29.432 17.2617 29.3301 17.0584 29.1263C16.8549 28.9228 16.7531 28.6705 16.7531 28.3695V18.4528H6.83643C6.53538 18.4528 6.2831 18.3509 6.07957 18.1472C5.87581 17.9434 5.77393 17.691 5.77393 17.3899C5.77393 17.0887 5.87581 16.8364 6.07957 16.6331C6.2831 16.4296 6.53538 16.3278 6.83643 16.3278H16.7531V6.41113C16.7531 6.11009 16.855 5.85781 17.0587 5.65428C17.2625 5.45051 17.5149 5.34863 17.8159 5.34863C18.1172 5.34863 18.3695 5.45051 18.5728 5.65428C18.7763 5.85781 18.8781 6.11009 18.8781 6.41113V16.3278H28.7948C29.0958 16.3278 29.3481 16.4297 29.5516 16.6334C29.7554 16.8372 29.8573 17.0896 29.8573 17.3907C29.8573 17.6919 29.7554 17.9442 29.5516 18.1475C29.3481 18.351 29.0958 18.4528 28.7948 18.4528H18.8781V28.3695C18.8781 28.6705 18.7762 28.9228 18.5724 29.1263C18.3687 29.3301 18.1163 29.432 17.8152 29.432Z' fill='%23F26631'/%3E%3C/g%3E%3C/svg%3E%0A");
-}
-.write .btn_wrap .more:hover {
-    transition: all 0.3s ease;
-    border: 1px solid #F26631;
-    border-radius: 14px;
 }
 .write .txt {
     margin-left: 245px;
