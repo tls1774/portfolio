@@ -855,6 +855,7 @@ header .logo a {
 }
 .culture .tab_list ul .item2 button:hover {
     background: #F26631;
+    color: #fff;
 }
 .culture .content .swiper {
     overflow: visible;
