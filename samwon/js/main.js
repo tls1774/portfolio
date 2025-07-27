@@ -18,7 +18,24 @@ $(document).ready(function(){
         nextEl: '.visual .ctrl_wrap button.btn_next',
         prevEl: '.visual .ctrl_wrap button.btn_prev',
         },
+        on: {
+          init: function () {
+              updateSlideCount(this); // 초기 숫자 설정
+          },
+          slideChange: function () {
+              updateSlideCount(this); // 슬라이드 변경 시 숫자 업데이트
+          }
+        }
     });
+    // ✅ 슬라이드 숫자 업데이트 함수
+    function updateSlideCount(swiper) {
+        const current = (swiper.realIndex || 0) + 1;
+        const total = swiper.slides.length - swiper.loopedSlides * 2; // 실제 슬라이드 개수
+
+        $('.ctrl_wrap .current-slide').text(current.toString().padStart(2, '0'));
+        $('.ctrl_wrap .total-slide').text(total.toString().padStart(2, '0'));
+    }
+
     /*********************  lang_open ****************** */
     
         $('.lang_open').click(function(e){
