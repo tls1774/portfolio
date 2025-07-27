@@ -51,7 +51,7 @@ html, body {
 .skip_nav a {
     display: block;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #008240;
     color: #fff;
     position: absolute;
