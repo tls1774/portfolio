@@ -175,6 +175,7 @@
     line-height: 1;
     color: rgba(59, 134, 12, 0.1);
 }
+
 .somnium .visual .left .top h2 {
     font-size: 60px;
     font-weight: 400;
@@ -240,3 +241,90 @@
 }
 
 
+
+/* adver */
+
+
+.adver .visual {
+    padding: 130px 0 144px 0;
+    background: url(../images/adver_bg.png) no-repeat center center /cover ;
+    position: relative;
+    background-color: #F8EFE1;
+}
+.adver .visual .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.adver .visual .left .top strong {
+    font-size: 120px;
+    line-height: 1;
+    color: rgba(59, 134, 12, 0.1);
+}
+.adver .visual .left .top span {
+    font-size: 60px;
+    line-height: 1;
+    color:#A7BBAF;
+}
+.adver .visual .left .top h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #2F3632;
+    font-family: 'MaruBuri';
+}
+.adver .visual .bottom {
+    margin: 46px 0 0 0;
+}
+.adver.visual .bottom strong {
+    font-size: 20px;
+    font-weight: 600;
+    color: #677333;
+}
+.adver.visual .bottom .date,
+.adver .visual .bottom .tool,
+.adver .visual .bottom .typ {
+    margin-bottom: 22px;
+}
+.adver .visual .bottom .color ul {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.adver .visual .bottom .color ul .green {
+    background-color: #677333;
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+}
+.adver .visual .bottom .color ul .pastel {
+    margin-top: 15px;
+}
+.adver .visual .go {
+    text-align: center;
+}
+.adver .visual .go a {
+    border-radius: 50px;
+    padding: 15px 50px;
+    display: inline-block;
+    right: 26%;
+    bottom: 16%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #677333;
+}
+.adver .visual .go a:hover  {
+    border: 1px solid #677333;
+    background-color: #fff;
+    color: #677333;
+    transition: 0.3s;
+}
+.adver .visual .right .pc img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.adver .detail {
+    background: url(../images/noise_som.png);
+}
+.adver .photo {
+    background: url(../images/som_detail.png) no-repeat center center;
+    height: 2439px;
+}

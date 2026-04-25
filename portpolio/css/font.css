@@ -23,3 +23,10 @@
 	src: local('MaruBuriRegular'), 
 	url(../font/MaruBuri-Regular.woff2) format('woff2');
 }
+@font-face {
+	font-family: 'NanumMyeongjo';
+	font-weight: 400;
+	font-display: swap;
+	src: local('NanumMyeongjo'), 
+	url(../font/MaruBuri-Regular.woff2) format('woff2');
+}

@@ -735,10 +735,13 @@ header .util .search {
         width: calc(100% - 20px);
     }
 }
+.special .special_wrap .tit strong {
+    font-weight: 700;
+}
 .special .special_wrap .tit h2 {
     color: #1d1d1d;
     font-size: var(--tit-size);
-    margin: 0 0 18px 0;
+    margin: 14px 0 18px 0;
 }
 .special .special_wrap .tit a {
     background-color: #fff;
@@ -746,7 +749,7 @@ header .util .search {
     color: var(--main-color);
     padding: 15px 38px;
     display: inline-block;
-    margin: 54px 0 0 0;
+    margin: 61px 0 0 0;
 } 
 .special .special_wrap .tit a:hover {
     background-color: var(--main-color);
