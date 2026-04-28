@@ -317,21 +317,21 @@
     margin-bottom: 40px;
 }
 .adver .detail {
-    background: url(../images/noise_som.png);
+    background: url(../images/noise_ad.png);
 }
 .adver .photo {
-    background: url(../images/som_detail.png) no-repeat center center;
-    height: 2439px;
+    background: url(../images/adver_detail.png) no-repeat center center;
+    height: 4680px;
 }
 
 /* project */
 
 
 .project .visual {
-    padding: 130px 0 144px 0;
-    background: url(../images/pro_bg.png) no-repeat center center /cover ;
+    padding: 130px 0 0 0;
+    background: no-repeat center center /cover ;
     position: relative;
-    background-color: #F8EFE1;
+    background-color: #fff;
 }
 .project .visual .wrapper {
     display: flex;
@@ -370,12 +370,6 @@
     gap: 5px;
     margin-top: 10px;
 }
-.project .visual .bottom .color ul .green {
-    background-color: #2F3632;
-    border-radius: 2px;
-    width: 40px;
-    height: 40px;
-}
 .project .visual .bottom .color ul .pastel {
     margin-top: 15px;
 }
@@ -402,9 +396,7 @@
     margin-top: 80px;
     margin-bottom: 40px;
 }
-.project .detail {
-    background: url(../images/noise_som.png);
-}
 .project .photo {
-    background: url(../images/som_detail.png) no-repeat center center;
+    background: url(../images/pro_datail.png) no-repeat center center;
+    height: 7000px;
 }
